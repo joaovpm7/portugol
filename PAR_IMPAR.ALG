@@ -7,19 +7,26 @@ Algoritmo "par_impar"
 Var
 // Seção de Declarações das variáveis
    numero : REAL
+   cont : INTEIRO
 
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-   ESCREVA ("Digite um numero: ")
+
+para cont de 1 ate 15 faca
+   ESCREVA ("Digite o", cont, " numero: ")
    LEIA (numero)
-   
+
    SE (numero % 2) = 0 ENTAO
-     ESCREVA ("O numero", numero, " é par!")
+     ESCREVAL ("O numero", numero, " é par!")
+     ESCREVAL
    SENAO
-     ESCREVA ("O numero", numero, " é ímpar!")
+     ESCREVAL ("O numero", numero, " é ímpar!")
      
+     ESCREVAL
+
    FIMSE
+FIMPARA
 
 
 Fimalgoritmo
